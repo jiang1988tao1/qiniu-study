@@ -4,7 +4,7 @@ import (
 	"git.changhong.io/qiniu-study/liwei/stringutils"
 	"log"
 )
-
+// test stringutils 
 func main() {
 
 	log.Println(stringutils.VerifyEmail("contact@idrmfly.com"))
