@@ -10,8 +10,7 @@ func stringindex(str1 string,str2 string){
 
 	for i:=0; i < len(strrune2); i++{
 			if strrune2[i]==strrune1[0]{
-				j:=0
-				for j=0; j < len(strrune1); j++{
+				for j:=0; j < len(strrune1); j++{
 					if strrune2[i+j] == strrune1[j]{
 						if j>=len(strrune1)-1{
 							position = i;
