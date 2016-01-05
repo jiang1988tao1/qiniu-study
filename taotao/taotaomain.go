@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"./reminder"
+	"github.com/changhong-qiniu/qiniu-study/taotao/reminder"
 )
-func main()  {
-	if i,e := remiander.Reminder(2,2);e!=nil{
+
+func main() {
+	if i, e := remiander.Reminder(2, 2); e != nil {
 		fmt.Printf("wrong num")
-	}else{
-		fmt.Printf("reminder is %d",i)
+	} else {
+		fmt.Printf("reminder is %d \n", i)
 	}
 }
